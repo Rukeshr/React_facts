@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #282D35;
+  margin: 0;
+}
+
+.main{
+    padding: 15px;
+    color: white; 
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21222A;
+    padding: 30px 20px;
+}
+
+nav > h1 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #61DAFB;
+    padding-left: 50px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+  
+.nav-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.main-list{
+    line-height: 30px;
+}
+
+li::marker{
+    font-size: 1.2em;
+    color: #61DAFB;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #21222A;
+    color: white;
+    text-align: center;
+}
+
+.App-logo {
+    width: 60px;
+    height: 60px;
+ }
+  
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
