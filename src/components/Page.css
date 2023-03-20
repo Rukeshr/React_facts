@@ -29,14 +29,10 @@ nav > h1 {
 .nav-items{
     list-style: none;
     display: flex;
+    padding-left: 8px;
     float: left;
     color: white;
     text-decoration: none;
-}
-  
-.nav-logo{
-    width: 60px;
-    height: 60px;
 }
 
 .main-list{
